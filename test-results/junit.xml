@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="0" errors="0" time="2.659">
+  <testsuite name="Calculator Unit Tests" errors="0" failures="0" skipped="0" timestamp="2025-10-04T11:40:27" time="1.056" tests="6">
+    <testcase classname="Calculator Unit Tests Addition should add two positive numbers" name="Calculator Unit Tests Addition should add two positive numbers" time="0.016">
+    </testcase>
+    <testcase classname="Calculator Unit Tests Addition should add negative numbers" name="Calculator Unit Tests Addition should add negative numbers" time="0.001">
+    </testcase>
+    <testcase classname="Calculator Unit Tests Subtraction should subtract two numbers" name="Calculator Unit Tests Subtraction should subtract two numbers" time="0.003">
+    </testcase>
+    <testcase classname="Calculator Unit Tests Multiplication should multiply two numbers" name="Calculator Unit Tests Multiplication should multiply two numbers" time="0.002">
+    </testcase>
+    <testcase classname="Calculator Unit Tests Division should divide two numbers" name="Calculator Unit Tests Division should divide two numbers" time="0.002">
+    </testcase>
+    <testcase classname="Calculator Unit Tests Division should return null for division by zero" name="Calculator Unit Tests Division should return null for division by zero" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Calculator API Integration Tests" errors="0" failures="0" skipped="0" timestamp="2025-10-04T11:40:27" time="1.322" tests="4">
+    <testcase classname="Calculator API Integration Tests GET / should return welcome message" name="Calculator API Integration Tests GET / should return welcome message" time="0.058">
+    </testcase>
+    <testcase classname="Calculator API Integration Tests POST /calculate should perform addition" name="Calculator API Integration Tests POST /calculate should perform addition" time="0.038">
+    </testcase>
+    <testcase classname="Calculator API Integration Tests POST /calculate should return error for invalid operation" name="Calculator API Integration Tests POST /calculate should return error for invalid operation" time="0.011">
+    </testcase>
+    <testcase classname="Calculator API Integration Tests POST /calculate should return error for missing parameters" name="Calculator API Integration Tests POST /calculate should return error for missing parameters" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="Performance Tests" errors="0" failures="0" skipped="0" timestamp="2025-10-04T11:40:27" time="1.636" tests="2">
+    <testcase classname="Performance Tests API response time should be under 100ms" name="Performance Tests API response time should be under 100ms" time="0.035">
+    </testcase>
+    <testcase classname="Performance Tests Calculate endpoint should handle concurrent requests" name="Performance Tests Calculate endpoint should handle concurrent requests" time="0.063">
+    </testcase>
+  </testsuite>
+</testsuites>
