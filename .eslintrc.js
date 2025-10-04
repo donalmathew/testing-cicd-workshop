@@ -10,12 +10,11 @@ module.exports = {
     // "plugin:prettier/recommended", // Integrate Prettier (auto formatting)
   ],
   parserOptions: {
-    ecmaVersion: "12", // Allows newest JS syntax
+    ecmaVersion: 2021, // Allows newest JS syntax
     sourceType: "module",  // Enable import/export
   },
   rules: {
-    // ✅ Customisable rules — tweak to your liking
-    "no-console": "warn",           // Allow console.log (useful for backend)
+    "no-console": "warn",
     "no-unused-vars": "error",
     "prefer-const": "warn",
   },
